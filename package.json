@@ -1,0 +1,24 @@
+{
+  "name": "todo-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taha-abbasi/todo-api.git"
+  },
+  "author": "Taha Abbasi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taha-abbasi/todo-api/issues"
+  },
+  "homepage": "https://github.com/taha-abbasi/todo-api#readme"
+}
