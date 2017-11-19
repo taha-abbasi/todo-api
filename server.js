@@ -9,11 +9,22 @@ var todos = [{
     id: 2,
     description: 'Go to market',
     completed: false
+}, {
+    id: 3,
+    description: 'Feed the dog',
+    completed: true
 }];
 
 app.get('/', function (req, res) {
     res.send('Todo API Root');
 });
+
+// GET /todos
+app.get('/todos', function (req, res) {
+    res.json(todos);
+});
+
+// GET /todos/:id
 
 app.listen(PORT, function () {
     console.log('Express listening on port ' + PORT + '!');
